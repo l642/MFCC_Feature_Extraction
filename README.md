@@ -5,7 +5,7 @@ The block diagram of MFCC is given below:-
 
 
 
-![MFCC](https://user-images.githubusercontent.com/58771064/98448633-71ca0800-2153-11eb-8c1f-b32898857aeb.png)
+                     ![MFCC](https://user-images.githubusercontent.com/58771064/98448633-71ca0800-2153-11eb-8c1f-b32898857aeb.png)
 
 
 Lets see each steps in details:-
@@ -21,7 +21,7 @@ Spectral content of speech signal continuously changes overtime (for example for
 # windowing:
 Next step is to define window function. Each of the frames multiplied with window functions in order to remove the discontinuity at the boundary of each frames. windowing reduces the effect of spectral leakage. it reduces the amplitude of discontinuity at the boundry of each finite sequence acquired by the digitizer. window consist of multiplying time record by finite length window with an amplitude that varry smoothly and gradually towards zeros at the end, that makes the end point sharper. The most commonly used window function is hamming window.
 
-![widowing](https://user-images.githubusercontent.com/58771064/98449109-ef434780-2156-11eb-9250-42e6ceaa5c16.png)
+                        ![widowing](https://user-images.githubusercontent.com/58771064/98449109-ef434780-2156-11eb-9250-42e6ceaa5c16.png)
 
 
 
