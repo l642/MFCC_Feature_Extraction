@@ -1,3 +1,5 @@
+## MFCC Feature Extraction
+
 Mel-frequency cepstral coefficients (MFCCs) are most commonly used audio features having wide application in the field of audio. MFCCs are used for automatic speech
 recognition (ASR) as well for speaker recognition. MFCC feature provides unique coefficient to a particular sample of audio. The number of step are followed MFCC
 calculation like framing, windowing, DFT, Mel scale conversion and finally applying DCT. 
