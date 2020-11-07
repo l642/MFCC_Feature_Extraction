@@ -47,7 +47,7 @@ As the frquency perceived by human being is not in linear scale. so instead of t
 # Discrete cosine transform:
 DCT is applied on the 20 log energy obtained from the triangular band pass filters to have L mel-scale cepstral coefficients. Here we can use IDFT also but it requires complex arithmetic. DCT implements same function as IDFT more efficintly by taking the advantage of redundancy in the signal.DCT formula is given below-
 
-                                              Cm=∑𝑘=1 𝑁 cos [m*(k-0.5)*π/N]* ,m=1,2……L
+                                              Cm=∑𝑘=1/𝑁 cos [m*(k-0.5)*π/N]* ,m=1,2……L
 
                                                                   Where, N = Number of triangular band pass filters
                                                                          L =Number of mel-scale cepstral coefficients.                                                                                 
