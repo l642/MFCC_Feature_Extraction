@@ -30,6 +30,9 @@ Next step is to define window function. Each of the frames multiplied with windo
 DFT is used to convert the time domain signal into frequency domain. By applying DFT we get frequency response of the signal. Output of DFT is a spectrum. The log of
 magnitude of DFT is taken to get the envelope of the spectrum.
 
+![dft envelop](https://user-images.githubusercontent.com/58771064/98449187-75f82480-2157-11eb-83fa-e1e05a8783e2.png)
+
+
 
 
 
