@@ -8,7 +8,7 @@ The block diagram of MFCC is given below:-
 
 
 ![MFCC](https://user-images.githubusercontent.com/58771064/98448633-71ca0800-2153-11eb-8c1f-b32898857aeb.png)
-Block
+
 
 Lets see each steps in details:-
 
@@ -27,14 +27,14 @@ Next step is to define window function. Each of the frames multiplied with windo
 
 
 ![widowing](https://user-images.githubusercontent.com/58771064/98449109-ef434780-2156-11eb-9250-42e6ceaa5c16.png)
- Hamming Windowing F
+
 
 # DFT:
 DFT is used to convert the time domain signal into frequency domain. By applying DFT we get frequency response of the signal. Output of DFT is a spectrum. The log of
 magnitude of DFT is taken to get the envelope of the spectrum.
 
 ![dft envelop](https://user-images.githubusercontent.com/58771064/98449187-75f82480-2157-11eb-83fa-e1e05a8783e2.png)
-                             DFT of audio signal 
+                             
 
 
 # Mel Filter bank: 
@@ -45,7 +45,7 @@ As the frquency perceived by human being is not in linear scale. so instead of t
                                                          m=2595*log10(1+f/700)
 
 ![triangular window](https://user-images.githubusercontent.com/58771064/98449349-d5a2ff80-2158-11eb-9c10-864c797fe71f.png)
-                                     Triangular band pass filters
+                   
 
 # Discrete cosine transform:
 DCT is applied on the 20 log energy obtained from the triangular band pass filters to have L mel-scale cepstral coefficients. Here we can use IDFT also but it requires complex arithmetic. DCT implements same function as IDFT more efficintly by taking the advantage of redundancy in the signal.DCT formula is given below-
