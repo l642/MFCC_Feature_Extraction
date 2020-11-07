@@ -40,6 +40,8 @@ As the frquency perceived by human being is not in linear scale. so instead of t
                                                          
                                                          m=2595*log10(1+f/700)
 
+![triangular window](https://user-images.githubusercontent.com/58771064/98449349-d5a2ff80-2158-11eb-9c10-864c797fe71f.png)
+
 
 
 
