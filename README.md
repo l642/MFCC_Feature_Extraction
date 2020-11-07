@@ -33,6 +33,15 @@ magnitude of DFT is taken to get the envelope of the spectrum.
 ![dft envelop](https://user-images.githubusercontent.com/58771064/98449187-75f82480-2157-11eb-83fa-e1e05a8783e2.png)
 
 
+# Mel Filter bank: 
+The final step to computing filter banks is applying triangular filters, on a Mel-scale. After getting envelope our taget is to detect the formant frequency using some filter along the spectrim if we detect the formant then avarage power of the specific filter is high. 
+
+As the frquency perceived by human being is not in linear scale. so instead of taking linear filter, mow we convert the filter bandwidth as per mel scale. The equation for conversion of normal frequency (Hz) scale to Mel-scale (m) is given by the equation-
+                                                         
+                                                         m=2595*log10(1+f/700)
+
+
+
 
 
 
